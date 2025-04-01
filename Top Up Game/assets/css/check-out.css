@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: transparent;
+  font-family: var(--font-montserrat);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: transparent;
+}
+
+.kotakLuar {
+  background-color: var(--kartu);
+  width: 320px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.kotakLuar h3 {
+  background-color: var(--hitamCerah);
+  color: var(--teksUtama);
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.1rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.kotakDalam {
+  padding: 1rem;
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--teksUtama);
+}
+
+.peringatan {
+  background-color: var(--aksenKuning);
+  padding: 0.8rem;
+  color: var(--latarBelakang);
+  border-radius: 10px;
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+.peringatan i {
+  margin-right: 10px;
+}
+
+.produk {
+  width: 100%;
+}
+.judul {
+  font-weight: bold;
+}
+.produk tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.bold {
+  font-weight: bold;
+}
+
+.pembayaran {
+  width: 100%;
+}
+.pembayaran tr {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.totalPay {
+  width: 100%;
+}
+.totalPay tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.totalPay img {
+  background-color: var(--teksUtama);
+  border-radius: 6px;
+  padding: 0 10px;
+  width: 50px;
+  height: 35px;
+  margin-left: -15px;
+}
+
+.kotakDalam hr {
+  margin: 1rem 0;
+  border: none;
+  border-top: 1px solid var(--abuAbuTua);
+}
+
+.konfirmasi {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  padding: 1rem;
+  border-top: 1px solid var(--abuAbuTua);
+}
+
+button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 4px;
+}
+
+.cancel {
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+  color: var(--kartu);
+}
+.cancel:hover {
+  color: var(--teksUtama);
+  background-color: var(--bahaya2);
+}
+
+.confirm {
+  color: var(--kartu);
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+  background-color: var(--aksenKuning);
+}
+.confirm:hover {
+  color: var(--teksUtama);
+  background-color: var(--aksenBiru);
+}

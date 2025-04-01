@@ -1,0 +1,109 @@
+body {
+  padding-top: 5rem;
+  height: 100vh;
+  margin: 0;
+  font-family: var(--font-poppins);
+  background-color: transparent;
+}
+
+.card {
+  width: 750px;
+  max-height: 450px;
+  border-radius: 10px;
+  overflow: hidden; /* Mencegah scroll keluar */
+  display: flex;
+  margin: 4rem auto;
+  backdrop-filter: blur(10px);
+  flex-direction: column;
+  background-color: var(--kartu);
+}
+
+.cari {
+  background-color: var(--kartu);
+  width: 100%;
+  padding: 15px;
+  border-bottom: 2px solid var(--aksenKuningRedup);
+  border-radius: 10px 10px 0 0;
+  flex-shrink: 0; /* Supaya tidak dipengaruhi oleh scroll */
+}
+
+.bungkusGame {
+  overflow-y: auto;
+  flex-grow: 1;
+  max-height: 100%; /* Mengisi ruang tersisa */
+}
+
+.cari i {
+  margin-right: 10px;
+  color: var(--teksKedua);
+}
+
+.cari input {
+  color: var(--teksUtama);
+  width: 600px;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+}
+.card input::placeholder {
+  color: var(--teksKedua);
+  opacity: 0.8;
+}
+
+.bungkusGame {
+  /* margin-top: 3.5rem; */
+  overscroll-behavior: contain; /* agar card tidak iktu kena scroll */
+}
+.game {
+  width: auto;
+  flex-direction: row;
+  padding: 0 1rem;
+  transition: 0.3s ease;
+}
+.game:hover {
+  background-color: var(--latarBelakang);
+}
+
+.game a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+.game img {
+  width: 100px;
+  border-radius: 20px;
+}
+.nama {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+.nama p {
+  text-align: start;
+  margin: 0;
+}
+.nama p:nth-child(1) {
+  margin-top: 15px;
+  color: var(--teksUtama);
+}
+.nama p:nth-child(2) {
+  font-size: 12px;
+  color: var(--teksKedua);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: var(--abuAbuTua);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: var(--aksenKuningRedup);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--aksenKuning);
+}

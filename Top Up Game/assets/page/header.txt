@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[Nama Web] | Header</title>
+    <link rel="stylesheet" href="/assets/css/header.css" />
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header id="header-container">
+      <div class="fContainer">
+        <div class="pembungkus">
+          <div class="kiri">
+            <div class="logo">
+              <a href="index.html">
+                <img src="/assets/data/img/logo/logo.png" alt="logo" />
+              </a>
+            </div>
+            <ul class="navigasi">
+              <li><a href="#" class="active">beranda</a></li>
+              <li><a href="#">cek pesanan</a></li>
+              <li><a href="#">pesanan</a></li>
+              <li><a href="#">testimoni</a></li>
+              <li><a href="#">artikel</a></li>
+            </ul>
+          </div>
+          <div class="kanan">
+            <div class="cariGame">
+              <a href="/assets/page/cari-game.html"
+                ><i class="fa-solid fa-magnifying-glass"></i> cari nama game</a
+              >
+            </div>
+            <div class="auth">
+              <div class="masuk"><a href="#">masuk</a></div>
+              <div class="daftar"><a href="#">daftar</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <script src="/assets/js/jquery-3.7.1.min.js"></script>
+    <script src="/assets/js/header.js"></script>
+  </body>
+</html>

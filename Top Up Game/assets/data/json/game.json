@@ -1,0 +1,409 @@
+{
+  "game": [
+    {
+      "nama": "Mobile Legends",
+      "developer": "MOONTON",
+      "gambar": "/assets/data/img/game/mobile legend.png",
+      "item": [
+        {
+          "item": "86 Diamonds",
+          "harga": 20000
+        },
+        {
+          "item": "172 Diamonds",
+          "harga": 40000
+        }
+      ]
+    },
+    {
+      "nama": "Free Fire",
+      "developer": "Garena International I",
+      "gambar": "/assets/data/img/game/free fire.png",
+      "item": [
+        {
+          "item": "100 Diamonds",
+          "harga": 16000
+        },
+        {
+          "item": "310 Diamonds",
+          "harga": 50000
+        }
+      ]
+    },
+    {
+      "nama": "Genshin Impact",
+      "developer": "COGNOSPHERE PTE. LTD.",
+      "gambar": "/assets/data/img/game/genshin.jpg",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "Brawl Stars",
+      "developer": "Supercell",
+      "gambar": "/assets/data/img/game/brawl stars.jpg",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "Call of Duty: Mobile",
+      "developer": "Garena Mobile Private",
+      "gambar": "/assets/data/img/game/call of duty.jpeg",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "Clash Royale",
+      "developer": "Supercell",
+      "gambar": "/assets/data/img/game/clash royale.jpg",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "Clash Of Clans",
+      "developer": "Supercell",
+      "gambar": "/assets/data/img/game/coc.png",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "DragonNest2: Evolution",
+      "developer": "Shengqu Games",
+      "gambar": "/assets/data/img/game/dragon nest 2.png",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "Football Master 2-Soccer Star",
+      "developer": "Gala Sports",
+      "gambar": "/assets/data/img/game/football master 2.jpg",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "Growtopia",
+      "developer": "Ubisoft Entertainment",
+      "gambar": "/assets/data/img/game/growtopia.png",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "Hay Day",
+      "developer": "Supercell",
+      "gambar": "/assets/data/img/game/hay day.jpg",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "Marvel Snap",
+      "developer": "Nuverse",
+      "gambar": "/assets/data/img/game/marvel snap.jpg",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "PUBG MOBILE",
+      "developer": "Level Infinite",
+      "gambar": "/assets/data/img/game/pubg.jpg",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "State of Survival",
+      "developer": "FunPlus",
+      "gambar": "/assets/data/img/game/state of survival.png",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "Stumble Guys",
+      "developer": "Scopeli",
+      "gambar": "/assets/data/img/game/stumble.png",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "8 Ball Pool",
+      "developer": "Miniclip.com",
+      "gambar": "/assets/data/img/game/8 ball pool.jpg",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "Arena Breakout: FPS Realistis",
+      "developer": "Level Infinite",
+      "gambar": "/assets/data/img/game/arena breakout.jpg",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "Garena Undown",
+      "developer": "Garena Mobile Private",
+      "gambar": "/assets/data/img/game/garena undown.png",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "League of Legends: Wild Rift",
+      "developer": "Riot Games, Inc",
+      "gambar": "/assets/data/img/game/league of legends.png",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "Lords Mobile: Kingdom Wars",
+      "developer": "IGG.COM",
+      "gambar": "/assets/data/img/game/lords mobile.png",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "Point Blank",
+      "developer": "Zepetto",
+      "gambar": "/assets/data/img/game/point blank.jpg",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "Ragnarok X x Re:Zero",
+      "developer": "Nuverse",
+      "gambar": "/assets/data/img/game/ragnarok x.jpg",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "Rise of Kingdoms: Lost Crusade",
+      "developer": "LilithGames",
+      "gambar": "/assets/data/img/game/rise of kingdom.jpg",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "saint Seiya : Awakening",
+      "developer": "Yoozoo (Singapore) Pte. Ltd",
+      "gambar": "/assets/data/img/game/saint seiya.jpg",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "Sausage Man",
+      "developer": "XD Entertaiment Pte Ltd",
+      "gambar": "/assets/data/img/game/sauge man.jpeg",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "Seal M",
+      "developer": "PlaywithKorea Inc.",
+      "gambar": "/assets/data/img/game/seal m.png",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    },
+    {
+      "nama": "Valorant",
+      "developer": "Riot Games, Inc",
+      "gambar": "/assets/data/img/game/valorant.jpg",
+      "item": [
+        {
+          "item": "60 Genesis Crystals",
+          "harga": 15000
+        },
+        {
+          "item": "300 Genesis Crystals",
+          "harga": 75000
+        }
+      ]
+    }
+  ]
+}

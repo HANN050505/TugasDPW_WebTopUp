@@ -1,0 +1,90 @@
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--latarBelakang);
+  font-family: var(--font-poppins);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.teksTengah {
+  max-width: 90%;
+  padding: 3rem;
+}
+
+.teksTengah p:nth-child(1) {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  color: var(--teksUtama);
+}
+
+.teksTengah p:nth-child(2) {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  color: var(--teksKedua);
+}
+
+.mulai {
+  text-decoration: none;
+  display: inline-block;
+  background-color: var(--aksenKuningRedup);
+  color: var(--latarBelakang);
+  padding: 1rem 10rem;
+  border-radius: 0.5rem;
+  font-size: 1.7rem;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.mulai:hover {
+  background-color: var(--aksenKuning);
+}
+
+@media (max-width: 768px) {
+  .teksTengah {
+    padding: 2rem;
+  }
+
+  .teksTengah p:nth-child(1) {
+    font-size: 2rem;
+  }
+
+  .teksTengah p:nth-child(2) {
+    font-size: 1.5rem;
+  }
+
+  .mulai {
+    padding: 0.8rem 3rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .teksTengah {
+    padding: 1.5rem;
+  }
+
+  .teksTengah p:nth-child(1) {
+    font-size: 1.8rem;
+  }
+
+  .teksTengah p:nth-child(2) {
+    font-size: 1.4rem;
+  }
+
+  .mulai {
+    padding: 0.7rem 2.5rem;
+    font-size: 1.4rem;
+  }
+}

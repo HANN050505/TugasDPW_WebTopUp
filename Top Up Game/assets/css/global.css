@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Montserrat&family=Roboto&family=Playfair+Display&family=Merriweather&family=Fira+Code&family=JetBrains+Mono&family=Bebas+Neue&family=Lobster&display=swap");
+
+:root {
+  /* font */
+  --font-poppins: "Poppins", sans-serif; /* Cocok untuk deskripsi atau paragraf karena mudah dibaca */
+  --font-roboto: "Roboto", sans-serif; /* Cocok untuk teks utama dan interface modern */
+  --font-montserrat: "Montserrat", sans-serif; /* Cocok untuk heading karena tampilan tegas dan modern */
+  --font-playfair: "Playfair Display", serif; /* Cocok untuk judul yang elegan atau tampilan editorial */
+  --font-merriweather: "Merriweather", serif; /* Cocok untuk artikel panjang karena nyaman dibaca */
+  --font-fira: "Fira Code", monospace; /* Cocok untuk tampilan kode di website programming */
+  --font-jetbrains: "JetBrains Mono", monospace; /* Cocok untuk editor kode atau terminal */
+  --font-bebas: "Bebas Neue", sans-serif; /* Cocok untuk logo atau teks yang ingin terlihat bold */
+  --font-lobster: "Lobster", cursive; /* Cocok untuk dekorasi atau heading kreatif */
+
+  /* warna */
+  --hitamCerah: #272829;
+  --abuAbuTua: #494a4d;
+  --abuAbuMuda: #eeeeee;
+  --latarBelakang: #121212;
+  --kartu: #18191b;
+  --teksUtama: #ffffff;
+  --teksKedua: #fbfdffbe;
+  --teksKetiga: #767b7f;
+  --aksenBiru: #0077cc;
+  --aksenBiruRedup: #1e8fffde;
+  --aksenKuning: #fcd53f;
+  --aksenKuningRedup: #f1c40fbd;
+  --sukses: #00ff85;
+  --bahaya1: #ff3b30;
+  --bahaya2: #c82333;
+  --pending: #ff6f3f;
+}

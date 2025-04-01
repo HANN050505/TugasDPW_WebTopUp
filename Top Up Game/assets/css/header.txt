@@ -1,0 +1,122 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-poppins);
+  font-size: 16px;
+}
+.fContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.pembungkus {
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+}
+.kiri {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.logo img {
+  margin-right: 20px;
+  width: 60px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--aksenKuning);
+  border-radius: 50%;
+}
+.navigasi {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+  font-weight: bold;
+  list-style: none;
+}
+.navigasi li {
+  color: var(--teksUtama);
+  transition: 0.3s ease;
+}
+.navigasi li:hover {
+  color: var(--aksenKuning);
+}
+.navigasi a {
+  text-decoration: none;
+  color: inherit;
+}
+.navigasi li:hover .navigasi a {
+  text-decoration: none;
+  color: inherit;
+}
+.kanan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.cariGame {
+  background-color: var(--teksUtama);
+  color: var(--background);
+  padding: 0.5rem 1rem;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.cariGame a {
+  text-decoration: none;
+  color: inherit;
+}
+.fa-solid {
+  margin-right: 6px;
+}
+.auth {
+  font-weight: bold;
+  display: flex;
+  padding: 1rem;
+  gap: 15px;
+}
+.masuk,
+.daftar {
+  color: var(--teksUtama);
+  height: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  padding: 0.5rem 2rem;
+}
+.daftar {
+  color: var(--background);
+  background-color: var(--aksenKuning);
+}
+.masuk:hover {
+  background-color: var(--aksenKuning);
+  color: black;
+}
+.daftar:hover {
+  background-color: transparent;
+  color: white;
+}
+.masuk:hover + .daftar {
+  background-color: transparent;
+  color: white;
+}
+.daftar:hover + .masuk {
+  background-color: var(--aksenKuning);
+  color: black;
+}
+.daftar a,
+.masuk a {
+  text-decoration: none;
+  color: inherit;
+}

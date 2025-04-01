@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[nama web] | Kalkulator Winrate</title>
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link rel="stylesheet" href="/assets/css/kalkulator/winrate.css" />
+  </head>
+  <body>
+    <div class="pembungkus">
+      <div class="kotakAtas">
+        <div class="logo">
+          <img src="/assets/data/img/logo/logo.png" alt="" />
+        </div>
+        <div class="judul">Kalkulator Winrate</div>
+        <div class="deskripsi">
+          Masukkan total pertandingan dan winrate saat ini, <br />lalu tentukan
+          target winrate yang kamu inginkan. Kalkulator ini akan menghitung
+          berapa <br />kemenangan yang dibutuhkan tanpa kekalahan untuk mencapai
+          target tersebut.
+        </div>
+        <hr />
+      </div>
+      <div class="kotakBawah">
+        <div class="hitung">
+          <div class="totalPertandingan">
+            <p>Total Pertandingan Anda</p>
+            <input
+              type="number"
+              name="match"
+              id="match"
+              placeholder="Contoh: 342"
+            />
+          </div>
+          <div class="totalWinrate">
+            <p>Total Win Rate Anda</p>
+            <input
+              type="number"
+              name="wrNow"
+              id="wrNow"
+              placeholder="Contoh: 58.6%"
+            />
+          </div>
+          <div class="winrateImpian">
+            <p>Win Rate yang anda inginkan</p>
+            <input
+              type="number"
+              name="wrTarget"
+              id="wrTarget"
+              placeholder="Contoh: 80%"
+            />
+          </div>
+          <div class="hasil">
+            <button id="hasil">Hasil</button>
+          </div>
+          <div class="hasilOutput">
+            <p><b></b><b></b></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/assets/js/winrate.js"></script>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px; /* 1rem = 10px */
+}
+body {
+  font-family: var(--font-poppins);
+  background-color: var(--latarBelakang);
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.container {
+  display: grid;
+  gap: 20px;
+  padding: 5rem 10rem;
+  perspective: 1000px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/* Desktop: 5 kolom */
+@media (min-width: 1200px) {
+  .container {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+/* Layar sedang: 4 kolom */
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 15rem 5rem;
+  }
+}
+
+/* Tablet: 3 kolom */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10rem 3rem;
+  }
+}
+
+/* HP: 2 kolom */
+@media (max-width: 767px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5rem 1rem;
+  }
+}
+
+.card {
+  width: 100%;
+  height: auto;
+  padding: 0 0 1rem 0;
+  background-color: var(--kartu);
+  border-radius: 20px;
+  box-shadow: 0 0 10px var(--hitamCerah);
+  text-align: center;
+  overflow: hidden;
+  border: 2px solid transparent;
+  will-change: transform, box-shadow;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px var(--aksenKuning),
+    inset 0 20px 30px -10px var(--aksenKuning);
+  border: 2px solid var(--aksenKuning);
+  filter: brightness(1.1);
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 19px;
+}
+
+.namaGame {
+  color: var(--teksUtama);
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; /* agat teks berubah menjadi titik titik */
+  padding: 0 1rem;
+  margin-top: 4px;
+}
+
+.dev {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--teksKetiga);
+  display: block;
+  font-size: 12px;
+  transition: color 0.1s ease;
+}
+
+#fullHeader {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+#fullHeader.scrolled {
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
